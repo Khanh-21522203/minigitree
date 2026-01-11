@@ -1,0 +1,80 @@
+############################################
+# C/C++ build artifacts
+############################################
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Static libraries
+*.a
+*.lib
+*.la
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug / profiling / misc
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+
+# Dependency files
+*.d
+
+############################################
+# Common build directories
+############################################
+build/
+Build/
+bin/
+obj/
+out/
+
+############################################
+# CMake (from github/gitignore template)
+############################################
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
+
+############################################
+# Editors / OS
+############################################
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
