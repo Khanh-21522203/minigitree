@@ -23,5 +23,5 @@ namespace minigitree::core {
 
         // Get statistics
         size_t files_restored() const { return files_restored_; }
-    }
+    };
 }
